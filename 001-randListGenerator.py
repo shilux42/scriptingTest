@@ -4,11 +4,10 @@ def num_list(min, max):
     num_list = []
     
     for i in range(max):
-        randomNum = randint(min, max)
-        num_list.append(randomNum)
+        random_num = randint(min, max)
+        num_list.append(random_num)
     
     return num_list
 
-
-print(num_list(1, 50))
-
+if __name__ == '__main__':
+    print(num_list(0, 49))
